@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@theme {
+--breakpoint-*: initial;
+  --breakpoint-sm:480px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;  
+  --color-mnightblue:#1d1936;
+}
+html{
+  scroll-behavior: smooth;
+}
+.polygon{
+     clip-path: polygon(0 70%, 100% 53%, 100% 100%, 0% 100%);
+
+}
