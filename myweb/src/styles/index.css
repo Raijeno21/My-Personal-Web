@@ -1,15 +1,30 @@
 @import "tailwindcss";
 @theme {
---breakpoint-*: initial;
-  --breakpoint-sm:480px;
+  --breakpoint-*: initial;
+  --breakpoint-xsm: 320px;
+  --breakpoint-sm: 480px;
   --breakpoint-md: 768px;
-  --breakpoint-lg: 1024px;  
-  --color-mnightblue:#1d1936;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1285px;
+  --color-mnightblue: #1d1936;
+  --font-*: initial;
+  --font-primary: "Poppins";
 }
-html{
+html,
+body {
   scroll-behavior: smooth;
+  margin: 0;
+  font-family: "Poppins";
 }
-.polygon{
-     clip-path: polygon(0 70%, 100% 53%, 100% 100%, 0% 100%);
+.polygon {
+  clip-path: polygon(0 70%, 100% 53%, 100% 100%, 0% 100%);
+}
 
+@media (min-width: 1024px) {
+  .polygon {
+    clip-path: polygon(55% 0, 100% 0%, 100% 100%, 45% 100%);
+  }
+}
+.test {
+  font: size 1rem;
 }

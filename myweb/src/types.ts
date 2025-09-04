@@ -1,3 +1,3 @@
-export interface HomeRef{
-    homeRef:React.RefObject<HTMLElement | null>
+export interface HomeRef {
+  homeRef: React.RefObject<HTMLElement | null>;
 }
