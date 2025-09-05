@@ -11,7 +11,7 @@ const Footer = ({ homeRef }: HomeRef) => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="m-20 flex h-40 flex-col border bg-mnightblue py-7 text-xs text-white">
+    <footer className="mt-20 flex h-40 flex-col border bg-mnightblue py-7 text-xs text-white">
       <div className="flex h-full w-full flex-1 flex-col gap-1">
         <div className="flex h-1/2 w-full items-center justify-center">
           <div

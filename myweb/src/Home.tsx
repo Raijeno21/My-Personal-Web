@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       <div className="polygon absolute bottom-0 z-10 h-[70%] w-full bg-gray-800/70 lg:z-0 lg:h-full lg:bg-mnightblue"></div>
 
-      <div className="absolute bottom-10 z-30 flex w-full justify-between text-white xsm:p-5 sm:px-10 md:bottom-[35%] md:flex-col md:gap-5">
+      <div className="absolute bottom-10 z-30 flex w-full justify-between text-white xsm:p-5 sm:bottom-7 sm:px-10 md:bottom-[35%] md:flex-col md:gap-5">
         <div className="bottom-10 flex w-[60%] flex-col justify-end pb-2 text-sm text-gray-100 md:text-black">
           <div className="xsm:text-lg md:text-3xl">Hi, I am</div>
           <div className="text-2xl text-nowrap sm:text-3xl md:text-5xl">
@@ -44,15 +44,9 @@ const Home = () => {
           </div>
         </div>
         <div className="w-12 md:flex md:h-12 md:w-full md:gap-5 md:text-black">
-          <div className="cursor-pointer rounded-full p-2 duration-300 ease-in-out hover:scale-x-120 hover:scale-y-120 hover:bg-mnightblue hover:text-gray-200 md:rounded-none md:bg-gray-300/50">
-            {icons.email}
-          </div>
-          <div className="cursor-pointer rounded-full p-2 duration-300 ease-in-out hover:scale-x-120 hover:scale-y-120 hover:bg-mnightblue hover:text-gray-200 md:rounded-none md:bg-gray-300/50">
-            {icons.git}
-          </div>
-          <div className="hover:text-gray-2 00 cursor-pointer rounded-full p-2 duration-300 ease-in-out hover:scale-x-120 hover:scale-y-120 hover:bg-mnightblue hover:text-white md:rounded-none md:bg-gray-300/50">
-            {icons.linkedin}
-          </div>
+          <div className="icon">{icons.email}</div>
+          <div className="icon">{icons.git}</div>
+          <div className="icon">{icons.linkedin}</div>
         </div>
       </div>
       <div className="absolute bottom-0 z-30 hidden h-[12%] w-full border bg-black lg:flex"></div>

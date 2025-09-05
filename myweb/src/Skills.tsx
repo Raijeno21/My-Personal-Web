@@ -2,7 +2,7 @@ import { icons } from "./svg";
 
 const Skills = () => {
   return (
-    <div className="h-screen border pt-[13%]">
+    <div className="h-screen pt-[13%]">
       <div className="flex h-full flex-col items-center justify-between p-5">
         <div>
           <img src="/images/separator.svg" />

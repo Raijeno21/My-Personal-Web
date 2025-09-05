@@ -28,3 +28,6 @@ body {
 .test {
   font: size 1rem;
 }
+.icon {
+  @apply cursor-pointer rounded-full p-2 duration-300 ease-in-out hover:scale-x-120 hover:scale-y-120 hover:bg-mnightblue hover:text-gray-200 md:rounded-none md:bg-gray-300/50;
+}

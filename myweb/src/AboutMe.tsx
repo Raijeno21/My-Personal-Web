@@ -1,12 +1,14 @@
 const AboutMe = () => {
   return (
-    <div className="h-screen pt-[13%] text-black">
-      <div className="mt-10 flex justify-center">
-        <span className="border-5 px-5 py-2">
-          A B O U T <span className="pl-2">M E</span>
+    <div className="h-screen text-black pt-[20%]">
+      <div className="flex flex-col h-full justify-between">
+        <div className="justify-center flex ">
+        <span className="border-5 px-5 py-2 flex">
+          A B O U T <span className="pl-2">ME</span>
         </span>
       </div>
-      <p className="mt-10 px-5 text-justify">
+      <div className="flex-1 pt-10">
+           <p className="text-justify px-5">
         <span className="pl-10">My</span> name is Tomasz Gajda, I'm a third year
         Applied Computer Science student at the AGH University of Science and
         Technology in Krakow. I have been learning Front-End technologies for a
@@ -16,12 +18,16 @@ const AboutMe = () => {
         English (spoken and written) and intermediate Spanish. Apart from
         designing and programming websites, my passion is all kinds of
         motorsport - from rallies to the very king of motorsport - formula 1.
-      </p>
-      <div className="mt-30 flex justify-center text-2xl">
-        <span className="cursor-pointer border-x-4 px-10 py-3 decoration-2 hover:text-red-500 hover:underline">
-          EXPLORE
-        </span>
+         </p>
       </div>
+      <div className="flex text-2xl justify-center mb-15" >
+        <span className=" border-x-5 px-15">
+           EXPLORE
+        </span>
+         
+      </div>
+      </div>
+      
     </div>
   );
 };
