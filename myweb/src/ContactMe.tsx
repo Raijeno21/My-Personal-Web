@@ -1,7 +1,7 @@
 const ContactMe = () => {
   return (
-    <div className="h-screen pt-[13%]">
-      <div className="flex h-full flex-col">
+    <div className="min-h-screen pt-[13%]">
+      <div className="flex h-full flex-col border">
         <div className="mt-10 flex justify-center">
           <div className="border-5 border-black px-5 py-2">C O N T A C T</div>
         </div>
