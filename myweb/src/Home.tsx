@@ -5,6 +5,7 @@ import Skills from "./Skills.tsx";
 import { icons } from "./svg.tsx";
 import TechStack from "./TechStack.tsx";
 const Home = () => {
+  const test = window.innerHeight;
   const menu = ["About Me", "Skills", "TechStack", "Portfolio", "Contact Me"];
 
   return (
@@ -37,7 +38,7 @@ const Home = () => {
         <div className="bottom-10 flex w-[60%] flex-col justify-end pb-2 text-sm text-gray-100 md:text-black">
           <div className="xsm:text-lg md:text-3xl">Hi, I am</div>
           <div className="text-2xl text-nowrap sm:text-3xl md:text-5xl">
-            Jeno Carisma
+            Jeno Carisma {test}
           </div>
           <div className="text-[10px] sm:text-sm md:text-3xl">
             Web Developer
